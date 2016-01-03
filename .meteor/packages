@@ -23,3 +23,6 @@ meteorhacks:npm
 
 npm-container
 ng2now
+pbastowski:systemjs
+pbastowski:angular-babel@1.0.9
+fourseven:scss
