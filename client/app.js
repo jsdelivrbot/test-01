@@ -6,9 +6,10 @@ SetModule('app', ['angular-meteor']);
 
 @Component({
     selector: 'app',
-    template: `<h2>Welcome to angular2-now human!</h2>`
+    template: `<h2>Welcome to angular2-now human!</h2>`,
+    services: ['$http']
 })
-@Inject('$http')
+//@Inject('$http')
 class App {
     constructor($http) {
         console.log('$http:', $http);
